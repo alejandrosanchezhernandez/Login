@@ -1,0 +1,50 @@
+/* SELECTOR UNIVERSAL TODOS *.
+   SELECTOR DE TIPO (DIV, H1, INPUT, H2, SPAN,P,....)
+   SELECTOR DE CLASE (.NOMBRE CLASE)
+   SELECTOR DE INDENTIFICADOR (#ID)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    color: black;
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: orange;
+}
+
+#cuadroPrincipal{
+    width: 20em;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.7em;
+    
+}
+.botonAzul{
+    background-color: turquoise;
+    color: white;
+}
+
+.ancho100{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.textoChico{
+    font-size: 0.6em;
+}
+
+.fondoGris{
+    background-color: rgb(233,233,233);
+}
+
+input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(210,210,210);
+}
